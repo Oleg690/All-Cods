@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url("../img/background.jpg") no-repeat;
+  background-size: cover;
+  /*background-position: center;*/
+  background-attachment: fixed;
+}
+
+div {
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div a {
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: #d5d5d5;
+}
+
+div a:hover {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+div p {
+  font-size: 50px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  background: transparent;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo{
+  font-size: 32px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar a{
+  position: relative;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.navbar a::before{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #fff;
+  transition: .3s;
+}
+
+.navbar a:hover::before{
+  width: 100%;
+}
+
+
+.navbar img{
+  position: relative;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+  transform: translate(20px, 20px);
+  z-index: 90;
+}
+
+.account{
+  z-index: 20;
+}

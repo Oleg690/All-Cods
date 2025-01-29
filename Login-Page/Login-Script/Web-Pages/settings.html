@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/settings.css" />
+    <title>User Settings</title>
+  </head>
+  <body>
+    <div class="popup" id="popup">
+      <p class="popupWindow" id="popupWindow">Are you sure?</p>
+      <div class="buttons">
+        <button class="delBtnInfo" onclick="findBtnToExecute('no')">Cancel</button>
+        <button class="delBtnInfo" onclick="findBtnToExecute('yes')">Yes</button>
+      </div>
+    </div><!---->
+    <div class="error" id="error">
+      <p id="ParError">Error</p>
+    </div>
+    <div class="container">
+      <div class="card">
+        <img src="../img/accountImg/profile.png" id="profile-pic" />
+        <label class="labelLabel" for="input-file">Update Image</label>
+        <input
+          class="inputLabel"
+          type="file"
+          accept="image/jpeg, image/png, image/jpg"
+          id="input-file"
+        />
+      </div>
+      <div class="leftBox">
+        <nav>
+          <a class="tab" href="../index.html">
+            <ion-icon name="arrow-back-circle"></ion-icon>
+          </a>
+          <a class="tab active" id="1" onclick="tabs(0)">
+            <ion-icon name="person"></ion-icon>
+          </a>
+          <a class="tab" id="2" onclick="tabs(1)">
+            <ion-icon name="cog"></ion-icon>
+          </a>
+        </nav>
+      </div>
+      <div class="rigthbox">
+        <div class="profile tabshow">
+          <h1>Personal Info</h1>
+          <h2>User</h2>
+          <input id="userInfo" type="text" class="input" readonly />
+          <h2>Email</h2>
+          <input id="emailInfo" type="text" class="input" readonly />
+          <h2>Password</h2>
+          <input id="passwordInfo" type="password" class="input" readonly />
+          <br /><br />
+          <button class="settingsBtn" onclick="verifyIfDelOrUpdate('delete')">delete</button>
+        </div>
+        <div class="settings tabshow">
+          <h1>Update Personal Info</h1>
+          <h2>User</h2>
+          <input id="userUpdate" type="text" class="input" />
+          <h2>Email</h2>
+          <input id="emailUpdate" type="text" class="input" />
+          <h2>Password</h2>
+          <div>
+            <input id="passwordUpdate" type="password" class="input" />
+            <img src="../img/eye-close.png" class="eye" id="eye">
+          </div>
+          <br /><br />
+          <button class="settingsBtn" onclick="verifyIfDelOrUpdate('update')">Update</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="../js/settings.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

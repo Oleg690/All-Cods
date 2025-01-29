@@ -1,0 +1,5 @@
+Sarcina 8. Fulgi de zăpadă. Nivelul 3
+Creați un algoritm care solicită utilizatorului să introducă dimensiunea matricei. Programul ar trebui
+imprimați fulgi de zăpadă care vor fi eșalonate într-o matrice de dimensiune n x n.
+Nu uitați să testați algoritmul atunci când introduceți acreditările
+și dimensiuni ciudate. Mult noroc!

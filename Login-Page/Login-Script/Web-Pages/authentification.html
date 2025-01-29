@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/authenticator.css">
+    <title>Authentification Page</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="loginForm" id="loginForm">
+            <div class="login">
+                <p class="login-Par">Login</p>
+            </div>
+            <div class="informatii">
+                <div class="user">
+                    <ion-icon name="checkmark-done" class="user-icon"></ion-icon>
+                    <input type="text" placeholder="Enter your user or email" id="user">
+                </div>
+                <div class="password">
+                    <ion-icon name="lock-closed" class="password-icon"></ion-icon>
+                    <input type="password" placeholder="Enter your password" id="password">
+                    <img src="../img/eye-close.png" id="seePassword"></img>
+                </div>
+                <p class="forgot-pass">Forgot your password? <a href="/Web-Pages/forgotPsw/checkEmail.html" class="forgot-passA"> Try other options!</a></p>
+
+            </div>
+            <button onclick="btn1Click()" class="loginBtn">Login</button>
+            <div class="register-link-div">
+                <p class="register-link">Don't have an account? <a id="moveRegister">Let's Register!</a></p>
+            </div>
+            <p id="error">Something Wrong!</p>
+        </div>
+
+        <div class="registerForm" id="registerForm">
+            <div class="register">
+                <p class="register-Par">Register</p>
+            </div>
+            <div class="informatiiRegister">
+                <div class="userRegister">
+                    <ion-icon name="person" class="user-icon-register"></ion-icon>
+                    <input type="text" placeholder="Enter your user" id="user-register">
+                </div>
+                <div class="registerPassword">
+                    <ion-icon name="mail" class="mail-icon-register"></ion-icon>
+                    <input type="email" placeholder="Enter your email" id="email-register">
+
+                    <ion-icon name="lock-closed" class="password-icon-register"></ion-icon>
+                    <input type="password" placeholder="Enter your password" id="password-register">
+                    <img src="../img/eye-close.png" id="seePassword1-register">
+                    
+                    <ion-icon name="checkmark-circle" class="password-icon2-register"></ion-icon>
+                    <input type="password" placeholder="Confirm your password" id="verifyPass-register">
+                    <img src="../img/eye-close.png" id="seePassword2-register">
+                </div>
+            </div>
+            <button onclick="btn2Click()" class="registerBtn">Register</button>
+            
+            <div class="login-link-div">
+                <p class="login-link">Already have a account? <a id="moveLogin">Let's Login!</a></p>
+            </div>
+            <p id="error2">Something Wrong!</p>
+            <p id="error3">Registered Successfully!</p>
+        </div>
+    </div>
+
+    <script src="../js/authentification.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

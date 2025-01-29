@@ -1,0 +1,38 @@
+.blue{
+    color:rgb(0, 30, 255);
+}
+
+.title{
+    font-size: 29px;
+}
+
+.border_principal{
+    width: 100%;
+    border: 3px solid gold;
+}
+
+#border_principal_1{
+    border-top: none;
+}
+
+.border_principal_mijloc{
+    border: 3px solid gold;
+    border-top: none;
+    border-bottom: none;
+}
+
+.list_alingment{
+    border-top: none;
+    border-bottom: none;
+    width: 38%;
+}
+
+.border5{
+    border: 1px solid;
+    height: 50%;
+    width: 100%;
+}
+
+#font_size{
+    font-size: 20px;
+}

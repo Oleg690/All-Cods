@@ -1,0 +1,284 @@
+div{
+    margin: 0px;
+}
+
+/* Style for navbar */
+
+.navBar{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin: 50px 100px 0px 100px;
+}
+
+.navBarContent{
+    display: flex;
+    width: 578px;
+    height: 65px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profilePicture{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+img{
+    width: 76px;
+    height: 76px;
+}
+
+.navBarLogo{
+    font-size: 70px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.navBarContent{
+    display: flex;
+    align-items: center;
+}
+
+.navBarContent{
+    font-size: 30px;
+}
+
+.signIn{
+    cursor: pointer;
+}
+
+form nav{
+    z-index: 1;
+}
+
+/* Style for main page */
+
+.tempText{
+    position: absolute;
+    font-size: 70px;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Style for wrapper and background*/
+
+.background{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    background: #ffffff98;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.wrapper{
+    overflow: hidden;
+    position: absolute;
+    width: 600px;
+    height: 750px;
+    border-radius: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e0e0e0;
+    z-index: 101;
+    border: 6px solid #9e9e9e;
+}
+
+/* Style for things inside of wrapper */
+
+p{
+    margin: 0;
+}
+
+.mainText{
+    font-size: 90px;
+    font-weight: bold;
+    margin: 30px 0px 38px 0px;
+    text-align: center;
+}
+
+.mainTextRegister{
+    font-size: 90px;
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+.forgotPassword{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.loginBtn{
+    background-color: #a4a4a4;
+    font-size: 45px;
+    text-align: center;
+    border: none;
+    width: 450px;
+    height: 80px;
+    border-radius: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.LoginFromRegister{
+    margin-top: 23px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.loginPopup{
+    transform: translateY(0px);
+    position: absolute;
+    width: 600px;
+    height: 750px;
+    margin: 0;
+}
+
+.registerFromLogin{
+    margin-top: 23px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.registerPopup{
+    transform: translateY(-750px);
+    position: absolute;
+    width: 600px;
+    height: 750px;
+    margin: 0;
+}
+
+.aAllDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.a1{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    color: #878787;
+    width: 255px;
+}
+
+.a2{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    color: #878787;
+    width: 193px;
+}
+
+.a3{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    color: #878787;
+    width: 180px;
+}
+
+/* Style for jsx code for transition betwen resetPopup and main Popup */
+
+.Popup{
+    display: block;
+}
+
+.resetPopup{
+    display: none;
+}
+
+/*Style for resetPopup things*/
+
+.enterEmail{
+    margin-top: 30px;
+}
+
+.enterEmail{
+    display: block;
+    position: absolute;
+    transform: translate(48px, 5px); /*48px, 5px → -548px, 5px*/
+}
+
+.enterCode{
+    display: none;
+    position: absolute;
+    transform: translate(48px, 35px); /*48px, 35px → 648px, 35px*/
+}
+
+.newPassword{
+    display: none;
+    position: absolute;
+    transform: translate(48px, 35px); /*48px, 35px → 648px, 35px*/
+}
+
+.mainTextRessetPassword{
+    font-size: 75px;
+    font-weight: bold;
+    margin: 18px 0px 38px 0px;
+    text-align: center;
+}
+
+/* For all inputs */
+
+input{
+    background-color: #ffffff;
+    border-radius: 28px;
+    outline: none;
+    width: 490px;
+    height: 65px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    margin: 0px 0px 32px 0px;
+    padding-left: 12px;
+}
+
+input::placeholder{
+    color: #000;
+}
+
+.input{
+    justify-content: center;
+}
+
+.inputs{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for back btn */
+
+.back{
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 65px;
+}
+
+.alignBack{
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+}

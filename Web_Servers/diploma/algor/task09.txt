@@ -1,0 +1,4 @@
+Sarcina 9. Diagramă verticală. Nivelul 3
+Creați un algoritm care solicită utilizatorului să introducă un număr. Programul ar trebui să iasă pentru fiecare
+Cifrele numărului sunt o coloană de asteriscuri. Exemplu:
+Introduceți numărul: 11304

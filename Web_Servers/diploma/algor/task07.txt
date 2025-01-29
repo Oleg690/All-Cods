@@ -1,0 +1,3 @@
+Sarcina 7. Câte numere cu două sau mai multe cifre sunt 3. Nivelul 3
+Creați un algoritm care calculează numărul de numere din intervalul de la 1 la 1000 care conțin două și
+mai mult cifre de 3.

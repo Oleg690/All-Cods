@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  background: #fff;
+  width: 740px;
+  height: 450px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 8.2%;
+  transform: scale(1.4);
+  border-radius: 5px;
+  box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
+}
+
+.leftBox {
+  float: left;
+  top: -4%;
+  left: 5%;
+  position: absolute;
+  width: 15%;
+  height: 107%;
+  background: #2ed573;
+  box-shadow: 3px 3px 10px rgba(119, 119, 119, 0.5);
+  border: 0.1em solid #fff;
+}
+
+nav a {
+  position: relative;
+  list-style: none;
+  padding: 0 0 0 45px;
+  top: 40px;
+  margin-top: 60px;
+  color: #fff;
+  font-size: 1.5em;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #10ac84;
+  cursor: pointer;
+}
+
+nav a:first-child {
+  margin-top: 7px;
+}
+
+nav a.active {
+  color: #10ac84;
+}
+
+.rigthbox {
+  width: 60%;
+  margin-left: 27%;
+}
+
+.tabshow {
+  transition: all 0.5s ease-in;
+  width: 80%;
+}
+
+.eye{
+  width: 30px;
+  transform: translate(-35px, 2.5px);
+  cursor: pointer;
+}
+
+h1 {
+  color: #7ed386;
+  font-size: 1.2rem;
+  margin-top: 40px;
+  margin-bottom: 35px;
+  transform: translateY(20px);
+}
+
+h2 {
+  color: #777;
+  text-transform: uppercase;
+  font-size: 8px;
+  letter-spacing: 1px;
+  margin-left: 2px;
+  margin-top: 10px;
+}
+
+.input,
+p {
+  border: 0;
+  border-bottom: 1px solid #3fb6a8;
+  width: 50%;
+  font-size: 0.7em;
+  padding: 7px 0;
+  color: #070707;
+  outline: none;
+}
+
+.settingsBtn {
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #fff;
+  background: #7ed386;
+  padding: 7px 15px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.settingsBtn:active{
+  transform: scale(0.9);
+}
+
+.tabshow {
+  display: none;
+}
+
+/*-----------------------------------------------*/
+
+.card {
+  position: absolute;
+  width: 250px;
+  background: #c1c1c1;
+  padding: 35px;
+  border-radius: 15px;
+  color: #333;
+  z-index: 12;
+  left: 400px;
+  transform: scale(0.8);
+}
+
+.card img {
+  width: 180px;
+  height: 180px;
+  margin-top: 40px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  border: 3px solid;
+  transform: translateX(35px);
+}
+
+.labelLabel {
+  display: block;
+  width: 180px;
+  text-align: center;
+  background: #e3362c;
+  color: #fff;
+  padding: 12px;
+  margin: 10px auto;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.inputLabel {
+  display: none;
+}
+
+.popup{
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  background: #845EC2;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  top: -55px; /*40px*/
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 14;
+  text-align: center;
+  transition: all .5s ease-in-out;
+}
+
+.popupWindow{
+  margin-top: 10px;
+  font-size: 20px;
+  width: 100%;
+  border: none;
+}
+
+.buttons{
+  transform: translateY(-30px);
+}
+
+.delBtnInfo{
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #fafffe;
+  background: #4b4453;
+  padding: 7px 15px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.delBtnInfo:nth-child(2){
+  margin-left: 10px;
+}
+
+.error{
+  margin: 0;
+  padding: 0;
+  border: none;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  background: rgb(211, 211, 211);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  top: -55px; /*40px*/
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 14;
+  text-align: center;
+  transition: all .5s ease-in-out;
+}
+
+.error p{
+  margin: 0;
+  transform: translateY(30px);
+  font-size: 20px;
+  border: none;
+  width: 100%;
+  text-align: center;
+}

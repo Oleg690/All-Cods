@@ -1,0 +1,32 @@
+body{
+    background: black;
+}
+
+p{
+    font-family: Arial;
+    text-align: center;
+}
+
+#size{
+    font-size: 70px;
+}
+
+.items1{
+    color: white;
+}
+
+.items1:hover{
+    font-size: 75px;
+    color: blue;
+    background-color: rgb(225, 255, 0);
+}
+
+.items2{
+    color: yellow;
+}
+
+.items2:hover{
+    font-size: 75px;
+    color: green;
+    background-color: aquamarine;
+}

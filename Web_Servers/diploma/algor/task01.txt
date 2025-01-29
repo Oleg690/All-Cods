@@ -1,0 +1,19 @@
+Sarcina 1
+Jurnal electronic
+Se dă un algoritm care generează 5 estimări aleatorii:
+import aleator
+
+x = []
+for i in range(5):
+y = random.randint(2, 5)
+x.apped(y)
+
+print('Note în jurnal:', x)
+
+# Creați un algoritm aici
+
+Completați algoritmul calculând scorurile minime, maxime și medii folosind bucla for. Exemplu:
+Note în jurnal: [4, 5, 5, 5, 2]
+Scor minim: 2
+Scor maxim: 5
+Scor mediu: 4,2

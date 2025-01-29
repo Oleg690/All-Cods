@@ -1,0 +1,9 @@
+Sarcina 4
+Sarcina 4. Numărul este + 1. Nivelul 2
+Creați un algoritm care solicită utilizatorului să introducă o propoziție. Programul ar trebui să creeze
+o nouă propoziție în care toate numerele sunt mărite cu unul. Exemple:
+Introduceți o propoziție: măsurați de 7 ori, tăiați de 1 dată
+Măsurați de 8 ori, tăiați de 2 ori
+Introduceți o propoziție: 2 + 2 = 4
+3 + 3 = 5
+Sugestie:puteți verifica dacă un caracter este o cifră folosind funcția .isdigit()

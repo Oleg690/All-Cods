@@ -1,0 +1,5 @@
+Sarcina 10. Un super număr. Nivelul 3
+2520 este cel mai mic număr care poate fi împărțit fără rest la toate numerele din intervalul de la 1 la 10.
+Creați un algoritm care calculează cel mai mic număr care poate fi împărțit fără rest la toate
+numere în intervalul de la 1 la 15. Atenție! Când testați algoritmul, nu setați valoarea superioară
+limita este mai mare de 15. În caz contrar, algoritmul va dura prea mult timp pentru a fi executat.

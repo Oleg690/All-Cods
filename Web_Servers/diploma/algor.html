@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="1"></p>
+
+    <script>
+      window.onload = run();
+
+      function runResult(e) {
+        let result = e.target.response;
+
+        result = JSON.parse(result);
+
+        document.getElementById("1").innerHTML = result;
+      }
+
+      function run() {
+        execGetQuery("cgi-bin/myalg.py");
+      }
+
+      function execGetQuery(url) {
+        let oReq = new XMLHttpRequest();
+        oReq.open("GET", url);
+        oReq.send();
+        oReq.onload = runResult;
+      }
+    </script>
+  </body>
+</html>

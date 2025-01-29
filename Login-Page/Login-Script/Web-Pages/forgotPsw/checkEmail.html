@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../../css/forgotPsw/checkEmail.css" />
+    <title>Verify Email</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div id="sendEmail">
+        <p class="information">Insert your email to verify!</p>
+        <input
+          type="text"
+          id="email"
+          placeholder="Enter email"
+          class="inputInformation"
+        />
+
+        <button onclick="sendCode()" class="sendBtn">Send Email</button>
+        <p class="sendPar">
+          Remember password?
+          <a href="../authentification.html" class="sendLink"
+            >Go back to login!</a
+          >
+        </p>
+
+        <p id="sendError">Something Wrong!</p>
+        <p id="emailSend">Email Send!</p>
+      </div>
+      <div id="checkCode">
+        <p class="informationCheckCode">Insert code!</p>
+
+        <input
+          type="text"
+          id="code"
+          class="inputInformation"
+          placeholder="Enter the code"
+        />
+
+        <button onclick="checkCode()" id="checkBtn">Check Code</button>
+
+        <p class="wrongEmail">
+          Wrong email? <a class="backToEmail">Go back to enter the email!</a>
+        </p>
+
+        <p id="checkErrorPar">Wrong Code!</p>
+      </div>
+    </div>
+    <script src="../../js/forgotPsw/checkEmail.js"></script>
+  </body>
+</html>

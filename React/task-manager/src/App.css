@@ -1,0 +1,13 @@
+.app-container{
+    margin: 40px;
+}
+
+.Content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Content{
+    display: flex;
+}

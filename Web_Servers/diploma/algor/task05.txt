@@ -1,0 +1,8 @@
+Sarcina 5. Un număr prim. Nivelul 3
+După cum știți, un număr prim este un număr care este divizibil fără rest doar cu unul și de la sine.
+Creați un algoritm care solicită utilizatorului să introducă un număr. Dacă numărul introdus este simplu, atunci
+programul ar trebui să Ieșire 'Simplu', altfel 'compus'. Exemple:
+Introduceți numărul: 5
+Simplu (pentru că: 5 % 2 != 0 și 5 % 3 != 0 și 5 % 4 != 0)
+Introduceți numărul: 8
+Compus (deoarece: 8 % 2 == 0)

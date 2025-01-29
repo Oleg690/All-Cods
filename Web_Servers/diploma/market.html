@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <title>Groceries</title>
+  </head>
+  <body>
+    <table id="table" class="table" align="center"></table>
+
+    <p id="items">Items in the database:</p>
+
+    <div class="modify">
+      <div class="add">
+        <p>Name :</p>
+        <input type="text" id="nameAdd" />
+
+        <p>Price:</p>
+        <input ty pe="text" id="priceAdd" />
+
+        <button onclick="add()">Add</button>
+      </div>
+
+      <div class="del">
+        <p>Id:</p>
+        <input type="text" id="idDel" />
+
+        <button onclick="del()">Delete</button>
+      </div>
+
+      <div class="update">
+        <p>Id:</p>
+        <input type="text" id="idUpdate" />
+
+        <p>Name:</p>
+        <input type="text" id="nameUpdate" />
+
+        <p>Price:</p>
+        <input type="text" id="priceUpdate" />
+
+        <button onclick="update()">Update</button>
+      </div>
+    </div>
+
+    <button onclick="infoBtn('max', 'sql')">Show Maximum Price SQL</button>
+    <button onclick="infoBtn('min', 'sql')">Show Minimum Price SQL</button>
+    <button onclick="infoBtn('avg', 'sql')">Show Average Price SQL</button>
+
+    <p id="result">Price: 0</p>
+
+    <button onclick="infoBtn('max', 'py')">Show Maximum Price Python</button>
+    <button onclick="infoBtn('min', 'py')">Show Minimum Price Python</button>
+    <button onclick="infoBtn('avg', 'py')">Show Average Price Python</button>
+
+    <br /><br />
+
+    <button onclick="toCart()">Go To Cart</button>
+
+    <br /><br />
+
+    <button onclick="delBtn()">Delete All Items</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

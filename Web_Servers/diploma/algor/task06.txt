@@ -1,0 +1,7 @@
+Sarcina 6. ---. nivelul 3
+În desene animate vechi, roboții vorbeau cu o voce robotică specială, pronunțând fiecare literă
+separat. În scris, o astfel de voce poate fi reprezentată prin litere și cratime între literele adiacente.
+Creați un algoritm care va converti vorbirea normală în vorbire robotică. Funcții de șir
+.split() și .join() nu poate fi folosit. Exemplu:
+Introduceți o propoziție: Lumea va fi a noastră
+Răspuns: L-u-m-e-a v-a f-i a n-o-a-s-t-r-a

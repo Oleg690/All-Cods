@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../../css/forgotPsw/updatePsw.css">
+    <title>Update Password</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="updatePsw">
+            <p class="paragraph">New Password</p>
+            <div class="newPsw">
+                <ion-icon name="lock-closed" class="passwordIcon"></ion-icon>
+                <input type="password" id="password" placeholder="Enter new password" class="newPassword">
+                <img src="../../img/eye-close.png" id="seePassword1"></img>
+            </div>
+            <div class="confirmPsw">
+                <ion-icon name="checkmark-circle" class="passwordConfirmIcon"></ion-icon>
+                <input type="password" id="confirmPsw" placeholder="Confirm password" class="newPasswordConfirm">
+                <img src="../../img/eye-close.png" id="seePassword2"></img>
+            </div>
+
+            <button onclick="updatePsw()" class="updatePsw">Update Password</button>
+
+            <p id="errorForNewPassword">Something Wrong!</p>
+        </div>
+    </div>
+
+    <script src="../../js/forgotPsw/updatePsw.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
